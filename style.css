@@ -1,0 +1,139 @@
+body {
+  background-image: url("gambar-2.jpg") !important;
+  background-size: cover ; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+.header-me {
+  background-color: #1a1a1a !important;
+}
+.warna-kalkulator {
+  color: #00E5FF;
+  text-shadow: 0 0 8px #00E5FF, 0 0 15px #00E5FF;
+  font-weight: bold;
+}
+.warna-bangun {
+  color: rgb(159, 159, 193);
+  text-shadow: 
+        0 0 10px rgb(159, 159, 193),
+        0 0 20px rgb(159, 159, 193),
+        0 0 40px rgb(159, 159, 193),
+        0 0 80px rgb(159, 159, 193);
+    font-weight: bold;  
+}
+.warna-datar {
+    color: #ff1aff;
+    text-shadow: 
+        0 0 10px #ff1aff,
+        0 0 20px #ff1aff,
+        0 0 40px #ff1aff,
+        0 0 80px #ff1aff;
+    font-weight: bold;  
+}
+.warna-menu {
+    color: #00e1ff;
+    text-shadow: 
+        0 0 10px #00e1ff,
+        0 0 20px #00e1ff,
+        0 0 40px #00e1ff,
+        0 0 80px #00e1ff;
+    font-weight: bold;  
+}
+.sidebar-me {
+  background-color: #343232 !important;
+}
+.warna-persegi {
+    color: #00E5FF;
+    text-shadow: 
+        0 0 10px #00E5FF,
+        0 0 20px #00E5FF,
+        0 0 40px #00E5FF,
+        0 0 80px #00E5FF;
+    font-weight: bold;
+    transform: rotate(0deg);
+}
+.warna-persegipanjang {
+  color: #00E5FF;
+    text-shadow: 
+        0 0 10px #00E5FF,
+        0 0 20px #00E5FF,
+        0 0 40px #00E5FF,
+        0 0 80px #00E5FF;
+    font-weight: bold;
+}
+.warna-lingkaran {
+  color: #00E5FF;
+  text-shadow: 
+      0 0 10px #00E5FF,
+      0 0 20px #00E5FF,
+      0 0 40px #00E5FF,
+      0 0 80px #00E5FF;
+  font-weight: bold;
+}
+.warna-kubus {
+  background-color: #3A003F !important;
+  color: #ff1aff;
+    text-shadow: 
+        0 0 10px #ff1aff,
+        0 0 20px #ff1aff,
+        0 0 40px #ff1aff,
+        0 0 80px #ff1aff;
+    font-weight: bold;
+}
+.warna-balok {
+  background-color: #3A003F !important;
+  color: #ff1aff;
+    text-shadow: 
+        0 0 10px #ff1aff,
+        0 0 20px #ff1aff,
+        0 0 40px #ff1aff,
+        0 0 80px #ff1aff;
+    font-weight: bold;
+}
+.warna-tabung {
+  background-color: #3A003F !important;
+  color: #ff1aff;
+    text-shadow: 
+        0 0 10px #ff1aff,
+        0 0 20px #ff1aff,
+        0 0 40px #ff1aff,
+        0 0 80px #ff1aff;
+    font-weight: bold;
+}
+.konten-me {
+  color: #00E5FF !important;
+}
+.footer-me {
+  background-color: #1a1a1a !important;
+  color: #00E5FF !important;
+}
+.warna-project {
+  color: #00E5FF;
+  text-shadow: 
+      0 0 10px #00E5FF,
+      0 0 20px #00E5FF,
+      0 0 40px #00E5FF,
+      0 0 80px #00E5FF;
+  font-weight: bold;
+}
+.warna-Garislurus{
+  color: #1a1a1a;
+  text-shadow: 
+      0 0 10px #00E5FF,
+      0 0 20px #00E5FF,
+      0 0 40px #00E5FF,
+      0 0 80px #00E5FF;
+  font-weight: bold;
+}
+.kalkulator-warna {
+  color: #ff1aff;
+    text-shadow: 
+        0 0 10px #ff1aff,
+        0 0 20px #ff1aff,
+        0 0 40px #ff1aff,
+        0 0 80px #ff1aff;
+    font-weight: bold;
+}
+#content {
+  background-color: rgba(224, 224, 224, 0.8) !important;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Bangun Datar</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/windicss-runtime-dom"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-r from-400 to-indigo-500 min-h-screen flex items-center justify-center p-6">
+  <div class="bg-white shadow-2xl rounded-2xl w-full max-w-6xl grid grid-rows-[auto,1fr,auto] overflow-hidden">
+
+    <!-- Header -->
+    <header class="header-me header-template bg-indigo-600 text-white text-center p-4 text-2xl font-bold">
+      <span class="warna-kalkulator">Kalkulator</span>
+      <span class="warna-bangun">Bangun</span>
+      <span class="warna-datar">Datar</span>
+    </header>
+
+    <!-- Main content -->
+    <main class="grid grid-cols-[220px,1fr] min-h-[500px]">
+
+      <!-- Sidebar -->
+      <aside class="sidebar-me bg-gray-100 border-r border-gray-300 p-4">
+        <div class="warna-menu text-lg font-semibold mb-3">Menu</div>
+        <button data-bangun="persegi"
+          class="warna-persegi w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">Persegi</button>
+        <button data-bangun="persegipanjang"
+          class="warna-persegipanjang w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">Persegi
+          Panjang</button>
+        <button data-bangun="lingkaran"
+          class="warna-lingkaran w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">Lingkaran</button>
+        <button data-bangun="kubus"
+          class="warna-kubus w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">kubus</button>
+        <button data-bangun="balok"
+          class="warna-balok w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">balok</button>
+        <button data-bangun="tabung"
+          class="warna-tabung w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">tabung</button>
+      </aside>
+
+      <!-- Konten utama -->
+      <section class="p-6 text-center" id="content">
+        <h2 class="konten-me text-xl font-bold mb-4">pilih bangun datar dari menu kiri</h2>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-me bg-gray-200 text-center p-3 text-gray-600 text-sm">
+      <span class="warna-project">© 2025 Farras Project</span>
+      <span class="warna-Garislurus">| </span>
+      <span class="kalkulator-warna">Kalkulator Bangun Datar</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
