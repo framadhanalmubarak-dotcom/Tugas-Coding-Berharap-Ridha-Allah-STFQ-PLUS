@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Bangun Datar</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/windicss-runtime-dom"></script>
+    <link rel="stylesheet" href="data-barang.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-r from-400 to-indigo-500 min-h-screen flex items-center justify-center p-6">
+    <div class="bg-white shadow-2xl rounded-2xl w-full max-w-6xl grid grid-rows-[auto,1fr,auto] overflow-hidden">
+
+        <!-- Header -->
+        <header class="header-me header-template bg-indigo-600 text-white text-center p-4 text-2xl font-bold">
+            <span class="warna-kalkulator">Kalkulator</span>
+            <span class="warna-bangun">Bangun</span>
+            <span class="warna-datar">Datar</span>
+        </header>
+
+        <!-- Main content -->
+        <main class="grid grid-cols-[220px,1fr] min-h-[500px]">
+
+            <!-- Sidebar -->
+            <aside class="sidebar-me bg-gray-100 border-r border-gray-300 p-4">
+                <div class="warna-menu text-lg font-semibold mb-3">Menu</div>
+
+                <button onclick="window.location.href='data-barang.html'"
+                    class="warna-barang w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">
+                    Data Barang
+                </button>
+
+                <button onclick="window.location.href='index.html'"
+                    class="warna-barang w-full bg-indigo-500 text-white rounded p-2 mb-2 hover:bg-indigo-600">
+                    Kalkulator Bangun Datar
+                </button>
+
+            </aside>
+
+            <!-- Konten utama -->
+            <section class="p-6 text-center" id="content">
+                <div class="p-4 max-w-md mx-auto bg-gray-800 text-white rounded-xl shadow-lg">
+
+                    <h2 class="text-xl font-bold mb-4">Data Barang</h2>
+
+                    <label>Nama Barang:</label>
+                    <input id="namaBarang" class="w-full p-2 mb-3 bg-gray-700 rounded" type="text">
+
+                    <label>Harga:</label>
+                    <input id="harga" class="w-full p-2 mb-3 bg-gray-700 rounded" type="number">
+
+                    <label>Jumlah:</label>
+                    <input id="jumlah" class="w-full p-2 mb-3 bg-gray-700 rounded" type="number">
+
+                    <label>Kategori:</label>
+                    <select id="kategori" class="w-full p-2 mb-4 bg-gray-700 rounded">
+                        <option value="Peralatan Olahraga">Peralatan Olahraga</option>
+                        <option value="Elektronik">Elektronik</option>
+                        <option value="Makanan">Makanan</option>
+                        <option value="Pakaian">Pakaian</option>
+                    </select>
+
+                    <div class="flex gap-3 mb-4">
+                        <button id="btnHapus" class="flex-1 bg-red-500 p-2 rounded">Hapus</button>
+                        <button id="btnTambah" class="flex-1 bg-green-500 p-2 rounded">Tambah</button>
+                    </div>
+
+                    <h3 class="text-lg font-semibold mb-2">List Data Barang</h3>
+
+                    <table class="w-full text-left border border-gray-600">
+                        <thead class="bg-gray-700">
+                            <tr>
+                                <th class="p-2 border">Nama</th>
+                                <th class="p-2 border">Harga</th>
+                                <th class="p-2 border">Jumlah</th>
+                                <th class="p-2 border">Kategori</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabelData"></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-me bg-gray-200 text-center p-3 text-gray-600 text-sm">
+            <span class="warna-project">© 2025 Farras Project</span>
+            <span class="warna-Garislurus">| </span>
+            <span class="kalkulator-warna">Kalkulator Bangun Datar</span>
+        </footer>
+    </div>
+
+    <script src="hayohSia.js"></script>
+</body>
+
+</html>
